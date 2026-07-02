@@ -1,0 +1,11 @@
+.vscode/
+__pycache__/
+*.pyc
+.env
+.venv
+.idea/
+dist/
+build/
+*.egg-info/
+Thumbs.db
+.DS_Store
