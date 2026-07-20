@@ -12,10 +12,10 @@ kbd = Keyboard(usb_hid.devices)
 
 
 BUTTON_MAPPING = {
-    board.GP12: Keycode.LEFT_ARROW,
-    board.GP17: Keycode.RIGHT_ARROW,
-    board.GP18: Keycode.UP_ARROW,
-    board.GP13: Keycode.DOWN_ARROW,
+    board.GP12: Keycode.RIGHT_ARROW,
+    board.GP17: Keycode.UP_ARROW,
+    board.GP18: Keycode.DOWN_ARROW,
+    board.GP13: Keycode.LEFT_ARROW,
     board.GP14: Keycode.RIGHT_SHIFT
 }
 
